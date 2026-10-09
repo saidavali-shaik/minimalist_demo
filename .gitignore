@@ -1,0 +1,16 @@
+# Secrets
+
+.env
+.env.*
+!.env.example
+
+# Python environments
+
+env/
+.venv/
+**pycache**/
+*.py[cod]
+
+# Node dependencies
+
+node_modules/
