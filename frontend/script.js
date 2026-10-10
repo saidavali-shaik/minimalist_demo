@@ -31,7 +31,7 @@ contactForm.addEventListener("submit", async (event) => {
     try {
 
         const response = await fetch(
-            "https://minimalist-demo.onrender.com",
+            "https://minimalist-demo.onrender.com/api/contact",
             {
                 method: "POST",
 
